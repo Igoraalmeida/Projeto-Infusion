@@ -14,59 +14,106 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         
       <link rel="stylesheet" href="style/normalize.css">
+      <link rel="stylesheet" href="style/main.css">
       
     </head>
     <body>
         
-        <header>
-          <a href="index.html">INFUSION</a>
+        <header class="header">
+          <a href="index.html" class="header__logo">INFUSION</a>
           
-          <button>Menu</button>
+          <button class="header__btnMenu">Menu</button>
           
-          <nav>
+          <nav class="header__nav">
             <ul>
-              <li><a href="#">design folio</a></li>
-              <li><a href="#">services</a></li>
-              <li><a href="#">our business</a></li>
-              <li><a href="#">how we help</a></li>
-              <li><a href="#">take the tour</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="#">Redes Sociais</a></li>
+              <li><a href="#">serviços</a></li>
+              <li><a href="#">Nosso Trabalho</a></li>
+              <li><a href="#">Como trabalhamos</a></li>
+              <li><a href="#">Parceiros</a></li>
+              <li><a href="#">Contato</a></li>
             </ul>
           </nav>
         </header>
         
-        <section>            
-          <h1>
-            CUTTING EDGE WP BUSINESS THEME
+        <section class="banner">            
+          <h1 class="banner__title">
+          Fotógrafos Profissionais
           </h1>
-          <p>Gutful of bottlo no dramas he's got a massive hooroo.</p>
-          <a href="#">BUY IT NOW</a>                      
+          <p class="banner__text"> Enxergue o mundo de um jeito nunca visto antes</p>
+          <a href="#" class="banner__btn">Ver mais</a>                      
         </section>
 
-        
-        <section>
-          <article>               
+        <div class="container">
+        <section class="people-cards">
+          <article class="people-cards__card">               
 
-            <img src="img/c01.jpg" alt="Carousel Img">
+            <img src="img/c01.jpg" alt="Carousel Img" class="people-cards__img">
             
-            <div>
+            <div class="people-cards__avatar">
               <img src="img/teamsprite_01.png" alt="Carousel Img">
             </div>
-            <div>
-              <h2>Lorem ipsum dolor sit amet consectetur</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+            <div class="people-cards__content">
+              <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
+              <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+            </div>
+          </article>            
+        </section>
+
+        <section class="people-cards">
+          <article class="people-cards__card">               
+
+            <img src="img/c02.jpg" alt="Carousel Img" class="people-cards__img">
+            
+            <div class="people-cards__avatar">
+              <img src="img/teamsprite_02.png" alt="Carousel Img">
+            </div>
+            <div class="people-cards__content">
+              <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
+              <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+            </div>
+          </article>            
+        </section>
+
+        <section class="people-cards">
+          <article class="people-cards__card">               
+
+            <img src="img/c03.jpg" alt="Carousel Img" class="people-cards__img">
+            
+            <div class="people-cards__avatar">
+              <img src="img/teamsprite_03.png" alt="Carousel Img">
+            </div>
+            <div class="people-cards__content">
+              <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
+              <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
             </div>
           </article>            
         </section>
         
+        <section class="people-cards">
+          <article class="people-cards__card">               
 
-        <section>
+            <img src="img/c04.jpg" alt="Carousel Img" class="people-cards__img">
+            
+            <div class="people-cards__avatar">
+              <img src="img/teamsprite_04.png" alt="Carousel Img">
+            </div>
+            <div class="people-cards__content">
+              <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
+              <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+            </div>
+          </article>            
+        </section>
+      </div>
+
+        
+        <section class="content">
+          <div class="container">
           
           <article>
             <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>            
-            <a href="#">BUTTON</a>
-            <a href="#">BUTTON</a>
+            <a href="#" class="button">Saiba mais</a>
           </article>
 
           <article>
@@ -74,13 +121,19 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio.</p>
             <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vitae lectus erat. Duis consequat laoreet velit. Mauris convallis, sapien sit amet scelerisque accumsan, felis urna aliquet nunc, viverra mollis odio tellus a nisl. Nulla lobortis lectus non rutrum viverra. Sed et molestie libero. Sed ut ultrices dui.</p>
           </article>  
-          
+        </div>
         </section>
+      
 
-        <section>
-          <h2>Latest Articles</h2>
+        <section class="last-articles">
+          
+          <div class="last-articles__title">
+             <div class="container">
+              <h2>Latest Articles</h2>
+           </div>
+          </div>
 
-          <div>
+          <div class="last-articles__thumbs">
               <a href="#"><img src="img/articles/01.jpg" alt=""></a>
               <a href="#"><img src="img/articles/02.jpg" alt=""></a>
               <a href="#"><img src="img/articles/03.jpg" alt=""></a>
@@ -96,14 +149,14 @@
           </div>
         </section>
 
-        <div>            
-          <div>
+        <div class="laptop-slider">            
+          <div class="laptop-slider__slideshow">
             <figure><img alt="" src="img/slider/slide-01.png" /></figure>
             <figure><img alt="" src="img/slider/slide-02.png" /></figure>
             <figure><img alt="" src="img/slider/slide-01.png" /></figure>
             <figure><img alt="" src="img/slider/slide-02.png" /></figure>
-            <span class="prev"><i class="fas fa-angle-left fa-4x"></i></span>
-            <span class="next"><i class="fas fa-angle-right fa-4x"></i></span>
+            <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
+            <span class="next" style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
           </div>                    
         </div>
         
