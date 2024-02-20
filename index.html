@@ -17,21 +17,20 @@
       <link rel="stylesheet" href="style/main.css">
       
     </head>
-    <body>
+    <body class="js">
         
         <header class="header">
           <a href="index.html" class="header__logo">INFUSION</a>
           
-          <button class="header__btnMenu">Menu</button>
+          <button  style="display: none;" class="header__btnMenu"> <img src="/img/mobileButton.png"> <span class="sr-only">Menu</span></button>
           
           <nav class="header__nav">
             <ul>
-              <li><a href="#">Redes Sociais</a></li>
-              <li><a href="#">serviços</a></li>
-              <li><a href="#">Nosso Trabalho</a></li>
-              <li><a href="#">Como trabalhamos</a></li>
-              <li><a href="#">Parceiros</a></li>
-              <li><a href="#">Contato</a></li>
+            <li><a href="#">Contato</a></li> 
+            <li><a href="#">serviços</a></li>
+            <li><a href="#">Parceiros</a></li>
+            <li><a href="#">Redes Sociais</a></li>
+            <li><a href="#">Nosso Trabalho</a></li>
             </ul>
           </nav>
         </header>
@@ -41,10 +40,14 @@
           Fotógrafos Profissionais
           </h1>
           <p class="banner__text"> Enxergue o mundo de um jeito nunca visto antes</p>
-          <a href="#" class="banner__btn">Ver mais</a>                      
+          <a href="#ancora" class="banner__btn">Ver mais</a>                      
         </section>
-
+        
+        
+        <h1 class=cards-title> Nossos parceiros</h1>
         <div class="container">
+          
+
         <section class="people-cards">
           <article class="people-cards__card">               
 
@@ -54,13 +57,14 @@
               <img src="img/teamsprite_01.png" alt="Carousel Img">
             </div>
             <div class="people-cards__content">
-              <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
-              <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+              <h2 class="people-cards__title">Pedro</h2>
+              <p class="people-cards__text">Conheça nosso talentoso fotógrafo! Capturando momentos preciosos com maestria e criatividade.
+              Explore sua arte e traga vida aos seus projetos visuais conosco.</p>
             </div>
           </article>            
-        </section>
+        
 
-        <section class="people-cards">
+        
           <article class="people-cards__card">               
 
             <img src="img/c02.jpg" alt="Carousel Img" class="people-cards__img">
@@ -69,13 +73,13 @@
               <img src="img/teamsprite_02.png" alt="Carousel Img">
             </div>
             <div class="people-cards__content">
-              <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
-              <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+              <h2 class="people-cards__title">João</h2>
+              <p class="people-cards__text">nosso talentoso fotógrafo da equipe! Com um olhar criativo e uma paixão pela captura de momentos únicos, João transforma cada projeto em uma obra-prima visual</p>
             </div>
           </article>            
-        </section>
+        
 
-        <section class="people-cards">
+        
           <article class="people-cards__card">               
 
             <img src="img/c03.jpg" alt="Carousel Img" class="people-cards__img">
@@ -84,13 +88,13 @@
               <img src="img/teamsprite_03.png" alt="Carousel Img">
             </div>
             <div class="people-cards__content">
-              <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
-              <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+              <h2 class="people-cards__title">Roberto</h2>
+              <p class="people-cards__text"> Com um olhar criativo e habilidades técnicas excepcionais, ele captura momentos memoráveis que contam histórias por si só</p>
             </div>
           </article>            
-        </section>
         
-        <section class="people-cards">
+        
+        
           <article class="people-cards__card">               
 
             <img src="img/c04.jpg" alt="Carousel Img" class="people-cards__img">
@@ -99,8 +103,8 @@
               <img src="img/teamsprite_04.png" alt="Carousel Img">
             </div>
             <div class="people-cards__content">
-              <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
-              <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+              <h2 class="people-cards__title">Maicon</h2>
+              <p class="people-cards__text">especialista em capturar momentos memoráveis e transformá-los em imagens que contam histórias únicas.</p>
             </div>
           </article>            
         </section>
@@ -110,16 +114,18 @@
         <section class="content">
           <div class="container">
           
-          <article>
-            <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>            
-            <a href="#" class="button">Saiba mais</a>
+          <article id="ancora">
+            <h3>Fotografia de moda</h3>
+            <p>Nossos serviços de fotografia de moda são ideais para designers, 
+            modelos e revistas de moda. Captamos imagens impressionantes que realçam 
+            as roupas, a modelo e o ambiente.</p>            
+            <a href="#" class="button">Encomendar serviço</a>
           </article>
 
           <article>
-            <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio.</p>
-            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vitae lectus erat. Duis consequat laoreet velit. Mauris convallis, sapien sit amet scelerisque accumsan, felis urna aliquet nunc, viverra mollis odio tellus a nisl. Nulla lobortis lectus non rutrum viverra. Sed et molestie libero. Sed ut ultrices dui.</p>
+            <h3>Fotografia de eventos</h3>
+            <p>Prestamos serviços para uma série de eventos, desde reuniões de empresas a festas privadas. 
+            Somos especialistas em captar a atmosfera única de qualquer evento.</p>
           </article>  
         </div>
         </section>
@@ -129,7 +135,7 @@
           
           <div class="last-articles__title">
              <div class="container">
-              <h2>Latest Articles</h2>
+              <h2>Exemplos</h2>
            </div>
           </div>
 
@@ -160,42 +166,52 @@
           </div>                    
         </div>
         
-        <section>
+        <section class="quote-container">
 
-          <div>
+          <div class="quote-slideshow">
             <figure>
-              <h2>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. </h2>
+              <h2>O sucesso de uma empresa começa com a dedicação de cada indivíduo. Juntos, podemos alcançar grandes conquistas. </h2>
               <figcaption>
                 Nam mi enim, auctor non ultricies.
               </figcaption>
             </figure>
             <figure>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</h2>
+              <h2>Acredite no poder da equipe. Quando todos remam na mesma direção, não há limites para o que podemos conquistar.</h2>
               <figcaption>
                 Nam mi enim, auctor.
               </figcaption>
             </figure>
           </div>
           
-          <span class="prev"><i class="fas fa-angle-left fa-2x"></i></span>
-          <span class="next"><i class="fas fa-angle-right fa-2x"></i></span>
+          <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-2x"></i></span>
+          <span class="next" style="display: none;"><i class="fas fa-angle-right fa-2x"></i></span>
           
         </section>
 
-        <footer>
+        <footer class="footer">
+          <div class="container">
           <h2>INFUSION</h2>
         
-          <p>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+          <p>Estamos sempre prontos para ouvir, colaborar e criar. Se tiver dúvidas, 
+          ideias ou simplesmente quiser saber mais sobre os nossos serviços, não hesite em contactar-nos.</p>
 
-          <p>aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+          <p>Horário de funcionamento do estúdio<br>
+            Segunda-feira – sexta-feira: das 9:00 às 18:00 horas<br>
+            Sábados: Apenas por marcação
+            Domingo: Fechado</p>
 
-          <ul>
-            <li><a href="#">List One</a></li>
-            <li><a href="#">Page Two</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact Me</a></li>
+          <ul class="footer__links">
+            <li><a href="#">Como trabalhamos</a></li>
+            <li><a href="#">Nosso Trabalho</a></li>
+            <li><a href="#">Redes Sociais</a></li>
+            <li><a href="#">Parceiros</a></li>
+            <li><a href="#">serviços</a></li>
+            <li><a href="#">Contato</a></li>
           </ul>
+        </div>
         </footer>
+
+        <script src="/JS/menu.js"></script>
+        <script src="/JS/main.js"></script>
     </body>
 </html>
